@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// fonts
+$sans-serif: 'Arial', sans-serif;
+$font-family-base: $sans-serif;
+$input-btn-font-family: $sans-serif;
+
+// colors
+$black: #343434;
+$white: white;
+
+// breakpoints
+$container-max-widths: (
+    xs: 320px,
+    sm: 540px,
+    md: 700px,
+    lg: 911px,
+    xl: 1170px,
+);
+
+$grid-breakpoints: (
+    xxs: 0,
+    xs: 360px,
+    sm: 576px,
+    md: 750px,
+    lg: 960px,
+    xl: 1280px,
+);
+
