@@ -5,6 +5,7 @@
   "dependencies": {
     "@headlessui/react": "^1.4.1",
     "@heroicons/react": "^1.0.4",
+    "@hookform/resolvers": "^2.8.2",
     "@reduxjs/toolkit": "^1.6.2",
     "@types/react-copy-to-clipboard": "^5.0.1",
     "heroicons-react": "^1.4.1",
@@ -12,10 +13,12 @@
     "react": "^17.0.2",
     "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.17.5",
     "react-redux": "^7.2.5",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "craco start",

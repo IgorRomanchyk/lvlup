@@ -76,7 +76,7 @@ const Auth = () => {
 
   return (
     <div>
-      <form className="bg-white rounded px-8 pt-6 pb-8 w-96 m-auto h-screen flex justify-center flex-col">
+      <form className="bg-white rounded px-8 pt-6 pb-8 w-96 m-auto">
         <div className="mb-4">
           {wrongdata && <label className="text-red-600">Вы ввели неверные данные</label>}
 
@@ -108,7 +108,7 @@ const Auth = () => {
           />
         </div>
         <button
-          className="flex justify-center w-36 items-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline "
+          className="flex items-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline "
           type="button"
           disabled={spinner === true}
           onClick={authUser}
